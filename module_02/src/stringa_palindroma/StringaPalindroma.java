@@ -31,14 +31,15 @@ public class StringaPalindroma {
         return isPalindroma2(str, 0, str.length()-1);
     }
 
-    public static boolean isPalindroma2(String str, int startIndex, int endIndex) {
+    public static boolean isPalindroma2(String str, int leftIndex, int rightIndex) {
         // CASI BASE
-        if (startIndex == endIndex) return true;
-        if (startIndex > endIndex) return true;
+        if (leftIndex == rightIndex) return true;
+        if (leftIndex > rightIndex) return true;
 
-        if (str.charAt(startIndex) != str.charAt(endIndex)) return false;
+        if (str.charAt(leftIndex) != str.charAt(rightIndex)) return false;
 
         // CHIAMATA RICORSIVA
-        return isPalindroma2(str, startIndex+1, endIndex-1);
+        return isPalindroma2(str, leftIndex+1, rightIndex-1);
     }
+
 }
