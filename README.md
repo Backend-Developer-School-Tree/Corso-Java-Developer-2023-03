@@ -9,7 +9,7 @@ This repo collects all the exercises produced and gathered by [Marco Adriani](ht
 | Module | Subject                      | Contents                                                  |
 |--------|------------------------------|-----------------------------------------------------------|
 | 1      | Java syntax and naming       |                                                           |
-| 2      | ABC dell'informatica in Java | [Esempi ricorsione](module_02/src/esempi/Ricorsione.java) |
+| 2      | ABC dell'informatica in Java | [Esempi ricorsione](module_02/src/esempi/Ricorsione.java), [Esercizi](module_02/src/) |
 | 3      | Git                          |                                                           |
 <!--
 | 4      | Object-Oriented Programming  | [Esercizi](module_04/src/)                                |
