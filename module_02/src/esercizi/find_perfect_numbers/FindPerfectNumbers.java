@@ -1,4 +1,4 @@
-package find_perfect_numbers;
+package esercizi.find_perfect_numbers;
 
 public class FindPerfectNumbers {
 

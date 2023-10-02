@@ -1,4 +1,4 @@
-package stringa_palindroma;
+package esercizi.stringa_palindroma;
 
 public class StringaPalindroma {
 

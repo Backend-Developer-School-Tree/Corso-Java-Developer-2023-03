@@ -1,4 +1,4 @@
-package binary_search;
+package esercizi.binary_search;
 
 public class BinarySearch {
 

@@ -1,4 +1,4 @@
-package find_prime_numbers;
+package esercizi.find_prime_numbers;
 
 public class FindPrimeNumbers {
 

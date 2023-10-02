@@ -1,4 +1,4 @@
-package triangolo_tartaglia;
+package esercizi.triangolo_tartaglia;
 
 import java.util.Arrays;
 
