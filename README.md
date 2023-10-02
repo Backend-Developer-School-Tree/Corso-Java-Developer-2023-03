@@ -1,6 +1,6 @@
 ![TreeSchool](assets/treeschool_header.png)
 
-# Corso-Java-Developer-2023-##
+# Corso-Java-Developer-2023-03
 
 This repo collects all the exercises produced and gathered by [Marco Adriani](https://github.com/MrSosu), [Andrea Gasparini](https://github.com/andrea-gasparini) and [Davide Fella](https://github.com/davidefella) for the teaching of the 2023 Java Back-end Developer course offered by [TreeSchool](https://tree.it/school/).
 
@@ -9,9 +9,9 @@ This repo collects all the exercises produced and gathered by [Marco Adriani](ht
 | Module | Subject                      | Contents                                                  |
 |--------|------------------------------|-----------------------------------------------------------|
 | 1      | Java syntax and naming       |                                                           |
-<!--
-| 2      | ABC dell'informatica in Java | [Esempi](module_02/src/esempi/)                           |
+| 2      | ABC dell'informatica in Java |                                                           |
 | 3      | Git                          |                                                           |
+<!--
 | 4      | Object-Oriented Programming  | [Esercizi](module_04/src/)                                |
 | 5      | Ereditarietà Base            | [Esercizi](module_05/src)                                 |
 | 6      | Ereditarietà Avanzata        | [Esercizi](module_06/src)                                 |
