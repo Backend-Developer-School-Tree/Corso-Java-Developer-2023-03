@@ -6,14 +6,14 @@ This repo collects all the exercises produced and gathered by [Marco Adriani](ht
 
 # Index
 
-| Module | Subject                      | Contents                                                                                       |
-|--------|------------------------------|------------------------------------------------------------------------------------------------|
-| 1      | Java syntax and naming       |                                                                                                |
-| 2      | ABC dell'informatica in Java | [Esempi ricorsione](module_02/src/esempi/Ricorsione.java), [Esercizi](module_02/src/esercizi/) |
-| 3      | Git                          |                                                                                                |
+| Module | Subject                      | Contents                                                                                                              |
+|--------|------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 1      | Java syntax and naming       |                                                                                                                       |
+| 2      | ABC dell'informatica in Java | [Esempi ricorsione](module_02/src/esempi/Ricorsione.java), [Esercizi](module_02/src/esercizi/)                        |
+| 3      | Git                          |                                                                                                                       |
+| 4      | Object-Oriented Programming  | [Esempi](module_04/src/esempi/), [Esercizi](module_04/src/esercizi/)                                                  |
+| 5      | Ereditarietà Base            | [Esempi](module_05/src/esempi/), [Esercizi](module_05/src/esercizi/)                                                  |
 <!--
-| 4      | Object-Oriented Programming  | [Esercizi](module_04/src/)                                |
-| 5      | Ereditarietà Base            | [Esercizi](module_05/src)                                 |
 | 6      | Ereditarietà Avanzata        | [Esercizi](module_06/src)                                 |
 | 7      | Generics & Collections       | [Esempi](module_07/src/esempi), [Esercizi](module_07/src) |
 | 8      | Eccezioni e annotazioni      | [Esercizi](module_08/src)                                 |
