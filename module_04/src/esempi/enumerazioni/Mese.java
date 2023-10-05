@@ -1,4 +1,4 @@
-package module_04.src.esempi.enumerazioni;
+package esempi.enumerazioni;
 
 import java.util.Arrays;
 
