@@ -1,6 +1,6 @@
 package esercizi.seriea;
 
-public class Team {
+public class Team implements Comparable<Team> {
 
     // attributi
     private static int idTot = 0;
@@ -162,5 +162,32 @@ public class Team {
     public void sconfitta(int fatti, int subiti) {
         this.golFatti += fatti;
         this.golSubiti += subiti;
+    }
+
+    /**
+     * Ordiniamo le squadre in base al punteggio. Se hanno
+     * lo stesso punteggio conta la differenza reti.
+     * @param t il team da confrontare
+     * @return
+     */
+    @Override
+    public int compareTo(Team t) {
+        if (this.punteggio == t.punteggio) {
+            return -((this.golFatti-this.golSubiti) - (t.golFatti - t.golSubiti));
+        }
+        return -(this.punteggio - t.punteggio);
+    }
+
+    @Override
+    public String toString() {
+        return nome + " " + punteggio + " " + golFatti + " " + golSubiti;
+    }
+
+    public void printRosa() {
+        String s = nome.toUpperCase() + "\n";
+        for (Giocatore g : rosa) {
+            s += g.toString() + "\n";
+        }
+        System.out.println(s);
     }
 }

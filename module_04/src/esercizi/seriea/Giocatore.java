@@ -33,4 +33,9 @@ public class Giocatore {
     public void setCognome(String cognome) {
         this.cognome = cognome;
     }
+
+    @Override
+    public String toString() {
+        return nome + " " + cognome;
+    }
 }
