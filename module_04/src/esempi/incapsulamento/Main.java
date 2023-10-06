@@ -14,6 +14,8 @@ public class Main {
         Persona persona2 = new Persona("Antonio", "Rossi", -40);
         persona2.setEta(-40);
         System.out.println(persona2.getEta());
+        System.out.println(persona.getId());
+        System.out.println(persona2.getId());
 
 
     }
