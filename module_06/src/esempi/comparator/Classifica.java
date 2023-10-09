@@ -104,16 +104,18 @@ public class Classifica {
      * @return la classifica ordinata
      */
     public Team[] getClassifica() {
-        // ordinamento di default dei Team: lessicografico in base al nome (come definito in Comparable di Team)
+        // ordinamento di default dei Team
+        // lessicografico in base al nome (come definito in Comparable di Team)
         Arrays.sort(championship);
 
-        // ordinamento in classifica (con classe top-level Comparator)
+        // ordinamento in classifica per punteggio
+        // con classe top-level Comparator
         Arrays.sort(championship, new TeamInClassificaComparator());
 
-        // ordinamento in classifica (con classe innestata Comparator)
+        // con classe innestata Comparator
         Arrays.sort(championship, new Classifica.TeamComparator());
 
-        // ordinamento in classifica (con classe anonima)
+        // con classe anonima
         Arrays.sort(championship, new Comparator<Team>() {
             @Override
             public int compare(Team t1, Team t2) {
@@ -123,6 +125,17 @@ public class Classifica {
                 return -(t1.getGolFatti() - t2.getPunteggio());
             }
         });
+
+        // con espressioni lambda e riferimenti a metodo (argomenti dei prossimi moduli)
+
+        Arrays.sort(championship, Comparator.comparing((Team t) -> -t.getPunteggio())
+                .thenComparing((Team t) -> -t.getGolFatti())
+                .thenComparing((Team t) -> -t.getGolSubiti()));
+
+        Arrays.sort(championship, Comparator.comparing(Team::getPunteggio)
+                .thenComparing(Team::getGolFatti)
+                .thenComparing(Team::getGolSubiti)
+                .reversed());
 
         return championship;
     }
