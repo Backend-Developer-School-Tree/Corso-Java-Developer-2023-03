@@ -2,8 +2,8 @@ package esercizi.conto_bancario;
 
 public class Versamento extends Operazione {
 
-    private final ContoBancario contoBancario;
-    private final double denaroDaVersare;
+    private double denaroDaVersare;
+    private ContoBancario contoBancario;
 
     public Versamento(double denaroDaVersare, ContoBancario contoBancario) {
         this.denaroDaVersare = denaroDaVersare;
@@ -11,7 +11,7 @@ public class Versamento extends Operazione {
     }
 
     @Override
-    public void esegui() {
+    void esegui() {
         contoBancario.updateSaldo(denaroDaVersare);
     }
 }
