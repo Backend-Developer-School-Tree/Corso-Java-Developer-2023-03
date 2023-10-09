@@ -4,14 +4,14 @@ Negli anni 80 molti videogiochi :video_game: avevano una grafica "testuale" e ci
 
 ![Rogue](Immagini/rogue.png)
 
-Possiamo rappresentare un esercizi.labirinto come una matrice di caratteri, in cui il carattere "-" rappresenta uno spazio vuoto, la "P" la posizione del giocatore e la "E" l’uscita.
+Possiamo rappresentare un labirinto come una matrice di caratteri, in cui il carattere "-" rappresenta uno spazio vuoto, la "P" la posizione del giocatore e la "E" l’uscita.
 
 
-![Possibile esercizi.labirinto](Immagini/preview.png)
+![Possibile labirinto](Immagini/preview.png)
 
 
 
-Scrivete un programma che permette ad un utente di giocare al vostro esercizi.labirinto. Per farlo potrà scrivere sulla console di java le lettere «WASD» per muoversi (come in molti videogiochi per PC). Quando il giocatore raggiunge il traguardo, verrà avvisato di aver vinto e il programma termina.
+Scrivete un programma che permette ad un utente di giocare al vostro labirinto. Per farlo potrà scrivere sulla console di java le lettere «WASD» per muoversi (come in molti videogiochi per PC). Quando il giocatore raggiunge il traguardo, verrà avvisato di aver vinto e il programma termina.
 
 
 ## Esempio di come funziona
@@ -21,8 +21,8 @@ Scrivete un programma che permette ad un utente di giocare al vostro esercizi.la
 
 ## :smiling_face_with_three_hearts: Bonus stage:
 
-Generate il esercizi.labirinto randomicamente
+Generate il labirinto randomicamente
 
 # :skull_and_crossbones: Ultra mega bonus stage:
 ## Io ve lo dico, è difficile...
-Fate in modo che il computer sia in grado di risolvere da solo il esercizi.labirinto.
+Fate in modo che il computer sia in grado di risolvere da solo il labirinto.
