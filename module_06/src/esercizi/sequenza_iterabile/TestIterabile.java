@@ -1,7 +1,5 @@
 package esercizi.sequenza_iterabile;
 
-import esempio_iterable.ListaDiInteri;
-
 public class TestIterabile {
 
     public static void main(String[] args) {
