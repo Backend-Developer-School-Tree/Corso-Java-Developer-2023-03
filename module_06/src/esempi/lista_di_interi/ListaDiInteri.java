@@ -105,7 +105,7 @@ public class ListaDiInteri implements Iterable<Integer> {
         // in caso contrario accorciamo l'array di 1
         int[] tmp = new int[array.length-1];
 
-        tmp = copy(array, tmp, index); // TODO vedere System.arraycopy();
+        tmp = copy(array, tmp, index);
 
         // copiamo la seconda metà degli elementi "shiftandoli di 1"
         for (int i = index; i < array.length-1; i++) {
