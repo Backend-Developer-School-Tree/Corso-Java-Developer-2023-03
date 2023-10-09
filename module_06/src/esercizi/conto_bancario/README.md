@@ -15,3 +15,6 @@ disponibile, il codice IBAN.
   - `Bonifico`: preleva del denaro da un conto e lo versa su un altro
 - Specificare un metodo nella classe `ContoBancario` che
 restituisca l'elenco delle operazioni svolte in ordine temporale
+
+
+- Prevedere la possibilità di iterare il conto bancario sulle operazioni
