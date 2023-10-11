@@ -15,9 +15,9 @@ public class Prelievo extends Operazione {
 
     @Override
     void esegui() {
-        if (denaroDaPrelevare > getContoBancario().getSaldo()) return;
-
         if (getContoBancario() == null) return;
+        
+        if (denaroDaPrelevare > getContoBancario().getSaldo()) return;
 
         getContoBancario().updateSaldo(-denaroDaPrelevare);
     }
