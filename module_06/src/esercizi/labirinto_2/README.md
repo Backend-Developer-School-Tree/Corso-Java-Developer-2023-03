@@ -1,4 +1,4 @@
-## Labirinto 2.0 🏍
+# Labirinto 2.0 🏍
 
 Implementare l'[esercizio labirinto del modulo 2](../../../../module_02/src/esercizi/labirinto/) utilizzando la OOP per
 rappresentare le entità del gioco.
