@@ -1,4 +1,7 @@
-Purpose of the exercise: Implement a simplified version of the "Battleship" board game using Java in the terminal. The game will consist of a player against the computer.
+# Simplified Battleship 🛵
+
+Purpose of the exercise: Implement a simplified version of the "Battleship" board game using Java in the terminal.
+The game will consist of a player against the computer.
 
 Game rules:
 
