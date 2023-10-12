@@ -1,3 +1,5 @@
+package module_07.src.esempi;
+
 public class Student extends Person{
 
     @Override
