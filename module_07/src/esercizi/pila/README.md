@@ -1,7 +1,9 @@
 # La classe Pila 🛴
 
 Progettare una classe generica `Pila` implementata mediante
-lista di elementi (potete provate anche con l'array)
+lista di elementi (potete provate anche con l'array).
+Come una pila di piatti, è possibile inserire un elemento solo in cima,
+ed è possibile solo rimuovere il primo elemento.
 
 - La classe può essere costruita con una dimensione iniziale ed
 implementa i seguenti metodi:

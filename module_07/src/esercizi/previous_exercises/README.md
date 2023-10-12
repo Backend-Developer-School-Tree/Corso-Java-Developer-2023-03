@@ -1,12 +1,12 @@
 Esercizi dei precedenti moduli da poter riprendere per esercitarsi con i generici:
 
-- [ListaDiInteri](module_04/src/esercizi/lista_di_interi) rendere la classe generica su un tipo `T` piuttosto che sui soli interi, così che invece di istanziarla così: `ListaDiInteri lista = new ListaDiInteri();`
+- [ListaDiInteri](module_04/src/esercizi/lista_di_interi) rendere la classe generica su un tipo `T` piuttosto che sui soli interi, così che invece di istanziarla come: `ListaDiInteri lista = new ListaDiInteri();`
   si possa istanziare analogamente a come facciamo per le collection di Java:
 ```Java
-Lista<Integer> lista = new Lista<>();
+MiaLista<Integer> lista = new MiaLista<>();
 // analogo a ArrayList<Integer> lista = new ArrayList<>();
-Lista<String> lista = new Lista<>();
-Lista<Libro> lista = new Lista<>();
+MiaLista<String> lista = new MiaLista<>();
+MiaLista<Libro> lista = new MiaLista<>();
 // ...
 ```
 
