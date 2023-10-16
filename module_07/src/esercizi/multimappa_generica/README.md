@@ -3,10 +3,10 @@ Una multimappa è una mappa che permette di memorizzare più valori (dello stess
 chiave. Creare una classe `MultiMappa` generica sul tipo di chiavi e valori.
 
 La classe deve implementare le seguenti funzionalità:
-- `put(k, v)` che associa il valore alla chiave specificata
+- `put(k, v)` che associa il valore alla chiave specificata (suggerimento: vedere metodo `merge`)
 - `putAll(MultiMappa m)` che aggiunge tutti gli elementi della multimappa in input alla mappa corrente
 - `removeAll(MultiMappa m)` che rimuove tutte le chiavi della multimappa in input dalla mappa corrente
-- `get(k)` che restituisce l'insieme dei valori associati alla chiave
+- `get(k)` che restituisce l'insieme dei valori associati alla chiave (suggerimento: vedere metodo `getOrDefault`)
 - `get(k, p)` come `get(k)` ma restituisce solo i valori che soddisfano il predicato p
 - `keySet()` che resituisce l'insieme delle chiavi contenute nella mappa
 - `values()` che restituisce l'elenco (con duplicati) dei valori contenuti nella multimappa
