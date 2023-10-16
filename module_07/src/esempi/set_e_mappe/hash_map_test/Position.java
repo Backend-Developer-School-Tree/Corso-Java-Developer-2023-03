@@ -1,4 +1,4 @@
-package module_07.src.esempi.collections.hash_map_test;
+package module_07.src.esempi.set_e_mappe.hash_map_test;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package module_07.src.esempi;
+package module_07.src.esempi.generics_e_liste;
 
 import java.util.ArrayList;
 import java.util.List;

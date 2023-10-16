@@ -1,4 +1,4 @@
-package module_07.src.esempi.collections;
+package module_07.src.esempi.set_e_mappe;
 
 import java.util.Objects;
 
