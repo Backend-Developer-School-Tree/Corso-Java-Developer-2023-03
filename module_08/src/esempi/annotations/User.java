@@ -1,5 +1,4 @@
-package esempi.exceptions.annotation;
-
+package esempi.annotations;
 
 import lombok.*;
 
