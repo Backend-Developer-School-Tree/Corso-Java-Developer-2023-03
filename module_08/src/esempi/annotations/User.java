@@ -3,10 +3,12 @@ package esempi.annotations;
 import lombok.*;
 
 @Getter(AccessLevel.PRIVATE)
+@Setter
 @AllArgsConstructor
 @RequiredArgsConstructor
 @NoArgsConstructor
 @ToString
+//@Data
 public class User {
 
     @NonNull
@@ -17,10 +19,10 @@ public class User {
     String email;
 
     public static void main(String[] args) {
-        new User();
+        /*new User();
         new User(1, "Andrea");
         User user = new User(1, "Andrea", "andrea@opinno.it");
         System.out.println(user);
-        System.out.println(user.getEmail());
+        System.out.println(user.getEmail());*/
     }
 }

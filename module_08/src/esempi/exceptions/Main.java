@@ -1,4 +1,4 @@
-package esempi.exceptions.src;
+package esempi.exceptions;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Main {
             System.out.println("Eccezione dentro il primo catch");
             System.out.println(e.getMessage()); //Cosa ha causato l'errore
 
-            //e.printStackTrace();
+            e.printStackTrace();
         } catch (NumberFormatException e) {
             System.out.println("Eccezione dentro il secondo catch");
             System.out.println(e.getMessage()); //Cosa ha causato l'errore
