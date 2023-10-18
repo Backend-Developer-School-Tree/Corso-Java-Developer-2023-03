@@ -1,4 +1,4 @@
-package esempi.exceptions;
+package esempi.exceptions.src;
 
 public class InvalidAgeException extends Exception {
 

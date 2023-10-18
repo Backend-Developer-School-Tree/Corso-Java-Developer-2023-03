@@ -1,4 +1,4 @@
-package esempi.exceptions;
+package esempi.exceptions.src;
 
 public class Main {
     public static void main(String[] args) {
