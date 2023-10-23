@@ -17,8 +17,8 @@ This repo collects all the exercises produced and gathered by [Marco Adriani](ht
 | 7      | Generics & Collections       | [Esempi](module_07/src/esempi/), [Esercizi](module_07/src/esercizi/)                                                                                                                                                                                                                                          |
 | 8      | Eccezioni e annotazioni      | [Esempi](module_08/src/esempi/), [Esercizio SharedMobility](module_08/src/esercizi/shared_mobility)                                                                                                                                                                                                           |
 | 9      | Gestione I/O - Packages      | [Esempio reader/writer](module_09/src/esempi/reader_writer/), [Esempio database](module_09/src/esempi/database), [Esercizi](module_09/src/esercizi/)                                                                                                                                                         |
+| 10     | Design Patterns              | [Esempi](module_10/src/esempi), [Esercizi](module_10/src/esercizi/) |
 <!--
-| 10     | Design Patterns              | [Esempi](module_10/src/esempi), [Esercizi](module_10/src) |
 | 11     | Java Stream                  | [Esercizi](module_11)                                     |
 | 12     | Database                     | [Esempi](module_12/src/esempi), [Esercitazione AndiamoATeatro](module_12/src/AndiamoATeatro.pdf)                           |
 | 13     | API                          | [Esercizi](module_13/src)                                                                  |
