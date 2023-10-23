@@ -31,7 +31,7 @@ msb.append("Facilissimo")
    .append(" concatenare")
    .append(" stringhe!");
 
-String myFinalString = msb.build();
+String finalString = msb.toString();
 
 System.out.println(finalString.equals("Facilissimo concatenare stringhe!"));
 System.out.println(finalString);
