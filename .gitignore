@@ -1,3 +1,6 @@
+# Properties files
+*.properties
+
 # Artifacts
 out
 *.class
