@@ -1,0 +1,6 @@
+driver=postgresql
+host=localhost
+port=5432
+name=AndiamoATeatro
+user=postgres
+password=postgres

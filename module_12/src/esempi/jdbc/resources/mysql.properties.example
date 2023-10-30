@@ -1,0 +1,6 @@
+driver=mysql
+host=localhost
+port=5432
+name=AndiamoATeatro
+user=mysqluser
+password=mysqlpassword
