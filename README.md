@@ -20,7 +20,7 @@ This repo collects all the exercises produced and gathered by [Marco Adriani](ht
 | 10     | Design Patterns              | [Esempi](module_10/src/esempi), [Esercizi](module_10/src/esercizi/) |
 | 11     | Java Stream                  | [Esempi](module_11/src/esempi), [Esercizi](module_11/src/esercizi/)                                     |
 | 12     | Database                     | [Esempi](module_12/src/esempi)                           |
-<--
+<!--
 | 13     | API                          | [Esercizi](module_13/src)                                                                  |
 | 14     | Spring                       | [Esercizi](module_14/src)                                                                  |
 | 18     | Test                         | [Esercizi](module_18/src)                                                                  |
