@@ -16,7 +16,9 @@ public class UserController {
     public void startServices() {
 
         // heartbeat
-        get("/", (req, res) -> "System is working");
+        get("/", (req, res) -> {
+            throw  new RuntimeException("test");
+        });
 
         get("/users", (req, res) -> {
             List<User> usersResult = userService.findAll();
