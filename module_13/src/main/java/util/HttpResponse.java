@@ -15,6 +15,13 @@ public class HttpResponse {
     @NonNull
     private String statusReponse;
 
+    @NonNull
+    private String description;
+
     private JsonElement data;
 
+    public HttpResponse(String statusReponse, JsonElement data) {
+        this.statusReponse = statusReponse;
+        this.data = data;
+    }
 }

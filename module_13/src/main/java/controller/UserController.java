@@ -21,40 +21,36 @@ public class UserController {
         get("/users", (req, res) -> {
             List<User> usersResult = userService.findAll();
 
-            /* Risposta con tutti gli utenti*/
             HttpResponse response = new HttpResponse("200",
                     new Gson().toJsonTree(usersResult));
 
             return new Gson().toJson(response);
         });
 
-        // TODO: Implementare il GetByID
-        // /:id --> pathVariabile
         get("/user/:id", (req, res) -> {
-            String paramID = req.params("userID"); //Prendo parametro dopo il ?
+            String paramID = req.params("id"); // Corretto il nome del parametro
 
-            return new Gson().toJson(new HttpResponse("200"));
+            User user = userService.findUserById(paramID);
+
+            if (user != null) {
+                return new Gson().toJson(new HttpResponse("200", "OK", new Gson().toJsonTree(user)));
+            } else {
+                return new Gson().toJson(new HttpResponse("404", "Utente non trovato"));
+            }
         });
 
         post("/user", (req, res) -> {
-
             User userFromReq = new Gson().fromJson(req.body(), User.class);
 
-            // TODO: Creare metodo in UserService per inserire Utente
-
             HttpResponse response = new HttpResponse("200",
-                    new Gson().toJsonTree(userFromReq));
+                    new Gson().toJsonTree(userService.addUser(userFromReq)));
 
             return new Gson().toJson(response);
         });
 
-        // In questo progetto l'ID dello user da aggiornare è compreso già nell'oggetto
         put("/user", (req, res) -> {
-
-            // Devo riconvertire user che viene da richiesta REST
             User userFromReq = new Gson().fromJson(req.body(), User.class);
-
-            // TODO: Creare metodo in UserService per aggiornare Utente
+            userService.updateUser(userFromReq);
 
             HttpResponse response = new HttpResponse("200",
                     new Gson().toJsonTree(userFromReq));
@@ -63,10 +59,10 @@ public class UserController {
         });
 
         delete("/user", (req, res) -> {
-            String paramID = req.queryParams("userID"); //Prendo parametro dopo il ?
-            // TODO: Implementare in UserService metodo per fare la delete
+            String paramID = req.queryParams("userID");
+            userService.deleteUser(paramID);
 
-            return new Gson().toJson(new HttpResponse("200"));
+            return new Gson().toJson(new HttpResponse("200", "User deleted"));
         });
     }
 }
