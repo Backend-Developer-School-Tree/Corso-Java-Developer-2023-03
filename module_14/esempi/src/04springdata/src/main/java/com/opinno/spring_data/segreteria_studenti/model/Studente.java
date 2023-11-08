@@ -5,12 +5,13 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import java.util.List; 
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
 @Builder
+@Entity
 public class Studente {
 
     @Id
@@ -19,6 +20,12 @@ public class Studente {
 
     @OneToOne
     private Libretto libretto;
+
+    @ManyToMany(fetch = FetchType.EAGER)
+    private List<Corso> corso; 
+
+    @OneToMany(fetch = FetchType.EAGER)
+    private List<Esame> esame; 
 
     private String matricola;
 }
